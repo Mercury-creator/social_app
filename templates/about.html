@@ -1,0 +1,113 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'favicon.png' %}" rel="icon" type="image/png">
+    <title>sign in</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'assets/css/icons.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/uikit.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/tailwind.css' %}">
+
+</head>
+
+<body class="bg-gray-100">
+
+
+    <div id="wrapper" class="flex flex-col justify-between h-screen">
+
+        <!-- header-->
+        <div class="bg-white py-4 shadow dark:bg-gray-800">
+            <div class="max-w-6xl mx-auto">
+
+
+                <div class="flex items-center lg:justify-between justify-around">
+
+                    <a href="trending.html">
+                       <b><h1 style="font-size: 1.5rem;">Login - Social Network</h1></b>
+                    </a>
+
+                    <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
+                        
+                        <a href="/signin" class="bg-pink-500 pink-500 px-6 py-3 rounded-md shadow text-white">Back</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Content-->
+        <div>
+            <div style="max-width: 900px;background: #fff;margin:auto;margin-top: 10px;padding: 30px;border-radius: 12px;box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                <h1>About Us</h1>
+                <p style="line-height: 1.6;margin-bottom: 15px;">Welcome to our social network — a place to connect, express, and belong.</p>
+
+                <hr style = "margin: 30px 0;border: none;border-top: 1px solid #ddd;">
+
+                <h2>🌍 Our Mission</h2>
+                <p style="line-height: 1.6;margin-bottom: 15px;">
+                We believe in the power of connection. Our mission is to create a safe, inclusive,
+                and engaging space where individuals from all walks of life can share ideas, express
+                themselves freely, and build meaningful relationships.
+                </p>
+
+                <h2>🧠 What We Do</h2>
+                <p style="line-height: 1.6;margin-bottom: 15px;">
+                We provide a simple yet powerful platform that allows users to create posts, share
+                images, and interact with others — all while respecting their privacy and ownership.
+                Our integration with blockchain technology also opens new possibilities for content
+                transparency and digital ownership.
+                </p>
+
+                <h2>🌱 Our Values</h2>
+                <p style="line-height: 1.6;margin-bottom: 15px;">
+                We are guided by a set of core values:
+                </p>
+                <ul>
+                    <li><strong>Respect:</strong> Every voice matters. We foster a respectful environment.</li>
+                    <li><strong>Privacy:</strong> Your data belongs to you. We protect it with care.</li>
+                    <li><strong>Creativity:</strong> We support originality, expression, and innovation.</li>
+                    <li><strong>Community:</strong> We build strong, safe, and supportive networks.</li>
+                </ul>
+
+                <h2>🤝 Join Us</h2>
+                <p style="line-height: 1.6;margin-bottom: 15px;">
+                Whether you're here to share your thoughts, promote a cause, or just connect with others,
+                our platform is your digital home. Together, let's build a better online space — one post
+                at a time.
+                </p>
+
+                <h2>📬 Contact</h2>
+                <p style="line-height: 1.6;margin-bottom: 15px;">
+                Have questions, feedback, or suggestions? We'd love to hear from you.<br>
+                Email us at: <a href="mailto:support@yoursite.com">support@yoursite.com</a>
+                </p>
+                
+            </div>
+        </div>
+        
+        <!-- Footer -->
+
+    </div>
+
+    <!-- Scripts
+    ================================================== -->
+    <script src="{% static 'assets/js/tippy.all.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'assets/js/uikit.js' %}"></script>
+    <script src="{% static 'assets/js/simplebar.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</body>
+
+
+</html>
